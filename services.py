@@ -6,4 +6,4 @@ class UserService:
         async with async_session() as session:
             # Adicionando Usuário
             session.add(User(name=name))
-            await session.commit()
+            await session.commit()  
